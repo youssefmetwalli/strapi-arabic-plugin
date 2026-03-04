@@ -4,7 +4,7 @@ html[dir="rtl"] body {
   unicode-bidi: plaintext;
 }
 
-/* Improve default spacing/alignment in RTL */
+/* slightly improve default spacing/alignment*/
 html[dir="rtl"] [data-strapi-header="true"],
 html[dir="rtl"] header,
 html[dir="rtl"] nav,
@@ -12,7 +12,7 @@ html[dir="rtl"] main {
   direction: rtl;
 }
 
-/* Flip common flex layouts */
+/* to flip common flex layouts */
 html[dir="rtl"] .strapi--sidebar,
 html[dir="rtl"] [class*="LeftMenu"],
 html[dir="rtl"] [class*="leftMenu"],
@@ -20,7 +20,23 @@ html[dir="rtl"] [class*="Sidebar"] {
   direction: rtl;
 }
 
-/* Tables: keep numbers readable while aligning to the right */
 html[dir="rtl"] table {
+  direction: rtl;
+}
+
+html[dir="rtl"] body,
+html[dir="rtl"] [data-strapi-header="true"] {
+  text-align: right;
+}
+
+html[dir="rtl"] input,
+html[dir="rtl"] textarea {
+  text-align: right;
+}
+
+/* to make icon/text order feel RTL */
+html[dir="rtl"] [role="button"],
+html[dir="rtl"] button,
+html[dir="rtl"] a {
   direction: rtl;
 }
