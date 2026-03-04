@@ -1,6 +1,6 @@
 # strapi-plugin-ar-pack
 
-Arabic (RTL) language pack plugin for the Strapi Admin panel (Strapi v5).
+Arabic (RTL) language pack plugin for the Strapi Admin panel for Strapi v5
 
 ## Install
 
