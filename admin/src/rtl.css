@@ -1,0 +1,26 @@
+/* Apply only when the document direction is RTL */
+html[dir="rtl"] body {
+  direction: rtl;
+  unicode-bidi: plaintext;
+}
+
+/* Improve default spacing/alignment in RTL */
+html[dir="rtl"] [data-strapi-header="true"],
+html[dir="rtl"] header,
+html[dir="rtl"] nav,
+html[dir="rtl"] main {
+  direction: rtl;
+}
+
+/* Flip common flex layouts */
+html[dir="rtl"] .strapi--sidebar,
+html[dir="rtl"] [class*="LeftMenu"],
+html[dir="rtl"] [class*="leftMenu"],
+html[dir="rtl"] [class*="Sidebar"] {
+  direction: rtl;
+}
+
+/* Tables: keep numbers readable while aligning to the right */
+html[dir="rtl"] table {
+  direction: rtl;
+}

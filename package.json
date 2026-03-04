@@ -1,0 +1,16 @@
+{
+  "name": "strapi-plugin-ar-pack",
+  "version": "1.0.0",
+  "description": "Translate Strapi's admin panel into Arabic (RTL).",
+  "main": "strapi-server.js",
+  "strapi": {
+    "name": "strapi-plugin-ar-pack",
+    "displayName": "strapi-plugin-ar-pack",
+    "description": "Translate Strapi's admin panel into Arabic (RTL).",
+    "kind": "plugin"
+  },
+  "license": "MIT",
+  "peerDependencies": {
+    "@strapi/strapi": "^5.8.1"
+  }
+}
